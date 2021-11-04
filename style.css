@@ -1,9 +1,10 @@
 body
     {
-        background-color: lightseagreen;
+        background-color: #BF3F3F;
+        font-family: monospace;
     }
         h1{
-            color:blue;
+            color: lightcoral;
             text-align:center;
         }
         
@@ -13,14 +14,29 @@ body
             padding: 10px;
             background-color: lightcoral;
             margin: 10px;
+            border-radius: 5px;
+
+        }
+        .assignment:hover
+        {
+           background-color:#454745;
         }
         .assignment img
         {
             width: 400px;
-            padding: 10px;
+            margin: 10px;
+            border: 5px solid  #BF3F3F;
+        }
+        .assignment img:hover
+        {
+            border: 5px solid  white;
         }
         a
         {
             text-decoration: none;
+            color:  #BF3F3F;
         }
-        <title>Om Patel</title>
+        a:hover
+        {
+            color: white;
+        }
